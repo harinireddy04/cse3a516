@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form action="sample.com">
+       Name:<input type="text" name="name" id="name" required><br><br>
+       Father's Name:<input type="text" name="f_name" id="f_name" required><br><br>
+       Mother's Name:<input type="text" name="m_name" id="m_name" required><br><br>
+        Email address:<input type="text" name="email" id="email" required><br><br>
+        Password:<input type="password" name="pwd" id="pwd"required><br><br>
+        Phone number:<input type="number" name="phno" id="phno"required><br><br>
+        Age:<input type="number" id="age"required><br><br>
+        Department:<select id="department" name="department" required>
+            <option value="" disabled selected>Select a department</option><br><br>
+            <option value="cse">CSE</option><br><br>
+            <option value="it">IT</option><br><br>
+            <option value="marketing">ECE</option><br><br>
+            <option value="sales">EEE</option><br><br>
+        </select>
+        <p class="gender"required>Gender<br><br>
+        Male<input type="radio" id="Male" name="gender">
+        Female<input type="radio" id="Female" name="gender">
+        </p><br>
+        <p>Address:</p>
+        <label for="address"required></label>
+        <textarea name="address" id="address" rows="10" cols="40" placeholder="type here:"></textarea><br>
+        <input type="submit" name="button" id="button" value="Submit">&nbsp;&nbsp;&nbsp;
+        <input type="reset" name="button" id="button" value="Reset">&nbsp;&nbsp;&nbsp;
+        <script src="Register.js"></script>
+        </form>
+        </div>
